@@ -39,6 +39,34 @@ const gamesListData = [
 },
 ]
 
+const chanelListData =[
+
+  
+                            
+                            {
+                            url:"https://www.twitch.tv/maykbrito",
+                                imageUrl: "https://static-cdn.jtvnw.net/jtv_user_pictures/9ce11a2b-ec84-44b1-9c76-b8d29df5fef0-profile_image-150x150.png" ,
+                                alt:"Imagem de Mayk Brito",
+                            
+},
+                        
+{
+                            
+                            url:"https://www.twitch.tv/gaules",
+                                imageUrl: "https://www.imagemhost.com.br/images/2023/03/04/Gaules536647331b29dd12.png" ,
+                                alt:"Imagem do Gaules",
+},
+                       
+                        
+                            {
+                            
+                            url:"https://www.twitch.tv/cellbit",
+                                imageUrl: "https://www.imagemhost.com.br/images/2023/03/04/0595cdd0-65a7-4fa3-996d-323cf3a54be1-profile_image-70x70ce8bff04a3b556d0.png", 
+                                alt:"Imagemd de Cellbit",
+                            
+                            },
+]
+
 function App() {
   return (
     <div className="App">
@@ -46,7 +74,9 @@ function App() {
 
 <main>
   <Section title="Meus Jogos" 
-  subtitle="Os games que eu mais curto jogar!">
+  subtitle="Os games que eu mais curto jogar!"
+  className ="games-list"
+  >
 
     {
 
@@ -67,7 +97,29 @@ alt={item.alt}
 
 </Section>
     <Section title="Canais e Streamers" 
-  subtitle="Lista de canais e transmissões que eu não perco" />
+  subtitle="Lista de canais e transmissões que eu não perco"
+  className="channel-list"
+  >
+
+{
+  chanelListData.map(function(item) {
+
+return(
+
+  <ListItem
+  url={item.url}
+  imageUrl={item.imageUrl}
+  alt={item.alt}/>
+
+
+)
+
+  })
+
+}
+
+
+  </Section>
 </main>
     </div>
   );

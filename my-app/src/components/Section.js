@@ -7,7 +7,7 @@ export default function Section(props) {
                 <p>
                     {props.subtitle}
                 </p>
-                <ul className="games-list">
+                <ul className={props.className}>
                    {props.children}
                 </ul>
             </div>
