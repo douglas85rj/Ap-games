@@ -1,10 +1,12 @@
-export default function Section() {
+export default function Section(props) {
     return(
     
         <><section>
             <div>
-                <h2>Meus jogos</h2>
-                <p>Os games que eu mais curto jogar!</p>
+                <h2>{props.title}</h2>
+                <p>
+                    {props.subtitle}
+                </p>
                 <ul className="games-list">
                     <li>
                         <a
