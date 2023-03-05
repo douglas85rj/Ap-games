@@ -3,7 +3,7 @@ import React from "react"
 import styled from "styled-components"
 import Section from "./Section";
 
-export function Form() {
+export default function Form() {
 
     
     return (
@@ -84,3 +84,4 @@ const Button = styled.button`
   border: 2px solid palevioletred;
   border-radius: 3px;
 `;
+
