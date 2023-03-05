@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Section from './components/Section';
 import ListItem from './components/ListItem';
+import { Form } from './components/Form';
 
 
 
@@ -197,6 +198,7 @@ socialListData.map(function(item){
 
 </Section>
 
+<Form />
   
 </main>
     </div>
