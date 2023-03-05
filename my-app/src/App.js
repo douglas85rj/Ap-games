@@ -67,6 +67,43 @@ const chanelListData =[
                             },
 ]
 
+
+const socialListData = [
+  
+                           {
+                            
+                            url:"https://www.twitch.tv/dgcarioca",
+                            imageUrl:"/assets/twitch.svg",                         
+                            alt:"Canal do Twitch",
+                           },
+
+                        
+                           {
+                            
+                            url:"https://www.twitter.com/maykbrito",
+                            imageUrl:"/assets/twitter.svg",                         
+                            alt:"Canal do twitter",
+                           },
+
+                        {
+                           
+                            
+                            url:"https://www.instagram.com/maykbrito",
+                            imageUrl:"/assets/instagram.svg",                         
+                            alt:"Canal do Instagram",
+                        },
+                       
+
+                        
+                           {
+                            
+                            url:"https://www.youtube.com/maykbrito",
+                            imageUrl:"/assets/youtube.svg",                         
+                            alt:"Canal do Twitch",
+                           
+                           },
+]
+
 function App() {
   return (
     <div className="App">
@@ -96,11 +133,11 @@ alt={item.alt}
 
 
 </Section>
+
     <Section title="Canais e Streamers" 
   subtitle="Lista de canais e transmissões que eu não perco"
   className="channel-list"
   >
-
 {
   chanelListData.map(function(item) {
 
@@ -119,10 +156,40 @@ return(
 }
 
 
-  </Section>
+
+
+</Section>
+
+
+    <Section title="Minhas redes" 
+  subtitle="Se conecte comigo agora mesmo"
+  className="socials-list"
+  >
+
+{
+
+socialListData.map(function(item){
+
+  return(
+
+    <ListItem
+    url={item.url}
+    imageUrl={item.imageUrl}
+    alt={item.alt}
+    />
+  );
+
+})
+
+}
+
+</Section>
+
+  
 </main>
     </div>
   );
 }
+
 
 export default App;
