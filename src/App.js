@@ -198,7 +198,7 @@ socialListData.map(function(item){
 
 </Section>
 
-<Form />
+
   
 </main>
     </div>
