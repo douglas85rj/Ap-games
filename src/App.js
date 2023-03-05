@@ -37,6 +37,18 @@ const gamesListData = [
        alt:"Imagem do jogo TFT",
   
 },
+{
+  url:"https://www.twitch.tv/directory/game/FIFA%2023",
+      imageUrl:"https://www.imagemhost.com.br/images/2023/03/05/FIFA.jpg",
+       alt:"Imagem do jogo Fifa",
+  
+},
+{
+  url:"https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V",
+      imageUrl:"https://www.imagemhost.com.br/images/2023/03/05/GTA.jpg",
+       alt:"Imagem do jogo GTA",
+  
+},
 ]
 
 const chanelListData =[
