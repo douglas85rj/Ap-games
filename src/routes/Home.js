@@ -89,7 +89,7 @@ const gamesListData = [
                           
                              {
                               
-                              url:"https://www.twitter.com/maykbrito",
+                              url:"https://twitter.com/douglasnil",
                               imageUrl:"/assets/twitter.svg",                         
                               alt:"Canal do twitter",
                              },
@@ -97,7 +97,7 @@ const gamesListData = [
                           {
                              
                               
-                              url:"https://www.instagram.com/maykbrito",
+                              url:"https://www.instagram.com/douglas_021/",
                               imageUrl:"/assets/instagram.svg",                         
                               alt:"Canal do Instagram",
                           },
@@ -106,7 +106,7 @@ const gamesListData = [
                           
                              {
                               
-                              url:"https://www.youtube.com/maykbrito",
+                              url:"https://www.youtube.com/channel/UC1r8sTQE0ALzWqy8-H1Noew",
                               imageUrl:"/assets/youtube.svg",                         
                               alt:"Canal do Twitch",
                              
