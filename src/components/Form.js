@@ -79,7 +79,7 @@ const Input = styled.input.attrs((props) => ({
   padding: 10px 20px;
   margin: auto;
   margin-bottom: 6px;
-  margin-top: 20px;
+  margin-top: 40px;
   
   display:inline;  
   display:block;

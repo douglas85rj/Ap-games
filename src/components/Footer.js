@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import "../App.css";
+import Section from "../components/Section"
 
 const Footer = () => {
   return (
-    <div>
+    <div> 
       <ul>
         <li>
           <Button as="a" href="/">
@@ -36,8 +37,8 @@ const Button = styled.button`
   margin-right: auto;
   width: 27%;
   text-decoration: none;
-  background: linear-gradient(white, white) padding-box,
-  linear-gradient(to right, darkblue, darkorchid) border-box;
+  background: linear-gradient(transparent, black) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
   border-radius: 1em;
   border: 4px solid transparent;
 `;
