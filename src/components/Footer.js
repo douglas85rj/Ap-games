@@ -23,6 +23,9 @@ const Footer = () => {
 </div>
     
   );
+
+
+  
 };
 
 const Button = styled.button`
