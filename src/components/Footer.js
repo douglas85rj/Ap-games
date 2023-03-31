@@ -29,7 +29,6 @@ const Button = styled.button`
   font-size: 1em;
   margin: 9px;
   padding: 15px;
-
   border-radius: 3px;
   display: block;
   text-align: center;
@@ -38,8 +37,8 @@ const Button = styled.button`
   width: 27%;
   text-decoration: none;
   background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, darkblue, darkorchid) border-box;
-  border-radius: 50em;
+  linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 1em;
   border: 4px solid transparent;
 `;
 
