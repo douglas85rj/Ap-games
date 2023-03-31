@@ -2,6 +2,11 @@
 
 Aluno: Douglas Monteiro de Souza | Disciplina: Interfaces com React | Professor : **Alexandre Werneck Andreza**
 
+Projeto:
+
+![alt Home do projeto](https://www.imagemhost.com.br/image/rWsVSE)
+
+
 # Getting Started with Create React App
 
 
