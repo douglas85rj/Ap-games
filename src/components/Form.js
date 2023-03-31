@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import "../App.css";
 
+
 export default function Form() {
   return (
     
@@ -12,7 +13,7 @@ export default function Form() {
         method="post"
         action="https://getform.io/f/97332049-19ab-4e2d-bd51-90d0accb9b30"
       >
-        <div className="row">
+        <div>
           <Input
             type="text"
             name="fullname"
@@ -24,7 +25,7 @@ export default function Form() {
             maxLength={36}
           />
         </div>
-        <div className="row">
+        <div>
           <Input
             type="email"
             name="email"
@@ -34,7 +35,7 @@ export default function Form() {
             className="field"
           />
         </div>
-        <div className="row">
+        <div>
           <Input
             type="tel"
             name="tel"
@@ -44,7 +45,7 @@ export default function Form() {
             pattern="\([0-9][0-9]\) 9?([0-9]{4}-[0-9]{4})"
           />
         </div>
-        <div className="row">
+        <div>
           <TextArea
             name="mensagem"
             id="mensagem"
@@ -70,21 +71,20 @@ const Input = styled.input.attrs((props) => ({
   // or we can define dynamic ones
   size: props.size || "1em",
 }))`
-  width: 70%;  
+  width: 40%;  
   color: palevioletred;
   font-size: 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
-  padding: 12px 20px;
-  margin: 10px 0;
-  margin-left: auto;
-  margin-right: auto;
-  display: auto;
+  padding: 10px 20px;
+  margin: auto;
+  margin-bottom: 6px;
+  margin-top: 20px;
+  
+  display:inline;  
+  display:block;
 
 
-  /* here we use the dynamically computed prop */
-  margin: ${(props) => props.size};
-  padding: ${(props) => props.size};
 `;
 
 const TextArea = styled.input.attrs((props) => ({
@@ -92,21 +92,18 @@ const TextArea = styled.input.attrs((props) => ({
 
   size: props.size || "1em",
 }))`
-  width: 70%;
+  width: 40%;
+  height: 150px;
   color: palevioletred;
   font-size: 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
   margin: auto;
-  display:inline;
-  margin-left: auto;
-  margin-right: auto;
- display:auto;
+  display:inline;  
+ display:block;
+ margin-top: 20px;
 
-
-  /* here we use the dynamically computed prop */
-  margin: ${(props) => props.size};
-  padding: ${(props) => props.size};
+  
 `;
 
 const Button = styled.button`
@@ -115,10 +112,13 @@ const Button = styled.button`
   color: ${(props) => (props.primary ? "white" : "palevioletred")};
 
   font-size: 1em;
-  margin: 4em;
+  margin: auto;
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
-  
+  cursor: pointer;
+  display:block;
+  margin-top:20px;
+  margin-bottom: 90px;
 
 `;
