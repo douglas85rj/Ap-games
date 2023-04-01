@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ap-games/static/css/main.f79e534a.css",
-    "main.js": "/ap-games/static/js/main.b5f79f03.js",
-    "static/js/787.28cb0dcd.chunk.js": "/ap-games/static/js/787.28cb0dcd.chunk.js",
-    "static/media/bg.jpg": "/ap-games/static/media/bg.829cc694262cbb31863d.jpg",
-    "index.html": "/ap-games/index.html",
-    "main.f79e534a.css.map": "/ap-games/static/css/main.f79e534a.css.map",
-    "main.b5f79f03.js.map": "/ap-games/static/js/main.b5f79f03.js.map",
-    "787.28cb0dcd.chunk.js.map": "/ap-games/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.780af2a7.css",
+    "main.js": "/static/js/main.1fdefe73.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bg.jpg": "/static/media/bg.829cc694262cbb31863d.jpg",
+    "index.html": "/index.html",
+    "main.780af2a7.css.map": "/static/css/main.780af2a7.css.map",
+    "main.1fdefe73.js.map": "/static/js/main.1fdefe73.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f79e534a.css",
-    "static/js/main.b5f79f03.js"
+    "static/css/main.780af2a7.css",
+    "static/js/main.1fdefe73.js"
   ]
 }
