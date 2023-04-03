@@ -2,7 +2,7 @@
 
 Aluno: Douglas Monteiro de Souza | Disciplina: Interfaces com React | Professor : **Alexandre Werneck Andreza**
 
-Projeto:
+Projeto: React | Styled Components | Jest 
 <img src="https://www.imagemhost.com.br/images/2023/03/31/Captura-de-Tela-2023-03-31-as-10.56.26.png" alt="Captura-de-Tela-2023-03-31-as-10.56.26.png" border="0" />
 
 
