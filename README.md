@@ -3,6 +3,8 @@
 Aluno: Douglas Monteiro de Souza | Disciplina: Interfaces com React | Professor : **Alexandre Werneck Andreza**
 
 Projeto: React | Styled Components | Jest 
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
 <img src="https://www.imagemhost.com.br/images/2023/03/31/Captura-de-Tela-2023-03-31-as-10.56.26.png" alt="Captura-de-Tela-2023-03-31-as-10.56.26.png" border="0" />
 
 
