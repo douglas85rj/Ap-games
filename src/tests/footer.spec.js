@@ -39,10 +39,7 @@ it("Validando os Links Home e Contato no click e abertura", () => {
   fireEvent.click(btn);
 
   expect(mockNavigate).toHaveBeenCalled();
-  expect(mockNavigate).toHaveBeenNthCalledWith("/");
-
-  
-
+  expect(mockNavigate).toHaveBeenCalledWith("/");
 })
 
 })
