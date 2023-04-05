@@ -8,9 +8,11 @@ const Footer = () => {
     <div>
       <ul>
         <li>
-          <Button  as="a" href="/">
+
+        <Button  as="a" href="/">
             Home
           </Button>
+         
         </li>
         <li>
           <Button  as="a" href="/contato">
