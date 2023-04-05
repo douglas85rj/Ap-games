@@ -34,9 +34,9 @@ it("Validando os Links Home e Contato no click e abertura", () => {
     
     </BrowserRouter>
   )
-  const btn = screen.getByText("Home")
+  const btn = screen.getByText("Home");
 
-  fireEvent(btn);
+  fireEvent.click(btn);
 
   expect(mockNavigate).toHaveBeenCalled();
   expect(mockNavigate).toHaveBeenNthCalledWith("/");
