@@ -5,7 +5,7 @@ import "../App.css";
 
 const Footer = () => {
   return (
-    <div className="btnHome">
+    <div>
       <ul>
         <li>
           <Button  as="a" href="/">

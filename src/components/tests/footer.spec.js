@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import Footer from "../components/Footer";
+import Footer from "../Footer";
 import { BrowserRouter } from "react-router-dom";
 
 
@@ -24,7 +24,7 @@ describe ("FooterRender", () => {
   });
 
 // Verificando se os Links Home e Contato estão abrindo corretamente as suas respectivas páginas.
-it("Validando os Links Home e Contato no click e abertura", () => {
+it("Validando os Links Home e Contato no click/abertura", () => {
 
   
   render(
