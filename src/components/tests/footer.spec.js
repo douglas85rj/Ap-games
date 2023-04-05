@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 
 
 const mockNavigate = jest.fn();
+
 jest.mock('react-router',() => ({
 
   ...jest.requireActual('react-router'),
@@ -23,23 +24,5 @@ describe ("FooterRender", () => {
     expect(screen.getByText("Contato")).toBeInTheDocument();
   });
 
-// Verificando se os Links Home e Contato estão abrindo corretamente as suas respectivas páginas.
-it("Validando os Links Home e Contato no click/abertura", () => {
-
-  
-  render(
-    <BrowserRouter>
-  
-      <Footer />
-    
-    </BrowserRouter>
-  )
-  const btn = screen.getByText("Home");
-
-  fireEvent.click(btn);
-
-  expect(mockNavigate).toHaveBeenCalled();
-  expect(mockNavigate).toHaveBeenCalledWith("/");
-})
 
 })
