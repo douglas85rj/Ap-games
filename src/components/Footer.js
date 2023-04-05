@@ -5,15 +5,15 @@ import "../App.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="btnHome">
       <ul>
         <li>
-          <Button as="a" href="/">
+          <Button  as="a" href="/">
             Home
           </Button>
         </li>
         <li>
-          <Button as="a" href="/contato">
+          <Button  as="a" href="/contato">
             Contato
           </Button>
         </li>
